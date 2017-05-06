@@ -1,44 +1,21 @@
-.service {
-  width: 100%;
-  height: 320px;
-  margin: 80px 0;
+
+.hero-section {
+  background: url("https://echalk-slate-prod.s3.amazonaws.com/private/schools/85/resources/27204423-4787-4cb1-83ff-d793e65bf1b7?AWSAccessKeyId=AKIAIZQPKIVDQVS7TUJA&Expires=1790842845&response-content-disposition=attachment%3Bfilename%3D%22be%2520in.jpg%22&response-content-type=image%2Fjpeg&Signature=Y9r5eU9r1LDsBvpC%2FDotWTM2pSk%3D") 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
   text-align: center;
-  border: 10px solid #ddd;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease; }
-  .service .service-icon-box {
-    position: relative;
-    top: 100px;
-    display: inline-block;
-    margin-bottom: 40px;
-    padding: 10px;
-    background: white;
-    -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease; }
-    .service .service-heading {
-      position: relative;
-      top: 100px;
-      -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-      transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55); }
-      .service .service-description {
-        width: 80%;
-        margin: 0 auto;
-        opacity: 0;
-        -webkit-transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        transition: all 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-        -webkit-transform: scale(0);
-        -ms-transform: scale(0);
-        transform: scale(0); }
-        .service .service-icon-box > img.service-icon {
-          width: 40px; }
-          .service:hover {
-            border-color: #00a8ff; }
-            .service:hover .service-icon-box {
-              top: -30px; }
-              .service:hover .service-heading {
-                top: -30px; }
-                .service:hover .service-description {
-                  opacity: 1;
-                  -webkit-transform: scale(1);
-                  -ms-transform: scale(1);
-                  transform: scale(1); }
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-section .hero-section-text {
+  color: #140e00;
+  text-shadow: 1px 1px 2px #0a0a0a;
+}
